@@ -260,12 +260,6 @@ div #foto4 {
 
 @media only screen and (max-width:768px) {
 
-    body {
-        /* background-color: gold; */
-    }
-
-    
-
     .s-proyects h1 {
         font-size: 3rem;
     }
@@ -273,12 +267,7 @@ div #foto4 {
         margin: 0 1rem;
     }
     .proyectos>img {
-        width: 350px;
+        width: 100%;
     }
 
-
-
-
-
-
-
+}
