@@ -67,6 +67,7 @@ hr {
     color: var(--color-1);
     width: 90%;
     margin: 0 auto;
+    margin: 2rem;
 }
 
 .informacion ul>li {
@@ -257,13 +258,22 @@ div #foto4 {
     width: 900px;
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:768px) {
 
+    body {
+        /* background-color: gold; */
+    }
+
+    
+
+    .s-proyects h1 {
+        font-size: 3rem;
+    }
     .informacion>p{
         margin: 0 1rem;
     }
     .proyectos>img {
-        width: 400px;
+        width: 350px;
     }
 
 
